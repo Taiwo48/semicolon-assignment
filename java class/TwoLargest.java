@@ -10,7 +10,7 @@ int secondlargest =1;
 
 while (counter <= 9) {
 
-  System.out.println("enter ten numbers");
+  System.out.println("enter a numbers");
 int numbers = input.nextInt();
 
    if (numbers > firstlargest) {
