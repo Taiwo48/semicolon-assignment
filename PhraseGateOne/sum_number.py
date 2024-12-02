@@ -1,6 +1,6 @@
 import random
 
-result = int(input("Enter sum :"))
+result = int(input("Enter sum of integers :"))
 
 random_integer = random.randint(1 , 100)
 
