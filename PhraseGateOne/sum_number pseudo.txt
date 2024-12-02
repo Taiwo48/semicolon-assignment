@@ -1,0 +1,11 @@
+import random to generate two integer under 100
+prompt user to enter the sum of the integers 
+store it as result
+calculate the sum of integer by random_integer + random_integer
+store it as sum_integer
+if result is equal to sum_integer 
+display true
+else 
+display false  
+
+ 
