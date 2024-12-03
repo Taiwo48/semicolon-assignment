@@ -33,7 +33,7 @@ public class LagbajaSchool {
             }
         }
         for (int count = 0; count < students; count++) {
-            System.out.println(" ================================\nstudent	subject1	subject2	subject3	total	average		position " + (count + 1) + ":");
+            System.out.println(" ================================\nstudent" + (count + 1) + ":");
             for (int i = 0; i < subjects; i++) {
                 System.out.print(scores[count][i]);
             }
