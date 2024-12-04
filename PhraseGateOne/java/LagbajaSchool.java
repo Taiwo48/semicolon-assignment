@@ -28,14 +28,27 @@ System.out.println("Score should be between 0 and 100. enter again.");
       }
           }
         }
+	System.out.print("====================================================================================================================================================\nStudents");
 	for (int count = 0;count < subjects;count++){
-	     System.out.print("\t\t\tsub" + (count + 1));
+	     System.out.print("\t\tsub" + (count + 1));
 }
+	for (int count = 0;count < 1;count++){
+	     System.out.print("\t\t     total");
+}
+	for (int count = 0;count < 1;count++){
+	     System.out.print("\t\t\t  average");
+}
+	System.out.println("\n====================================================================================================================================================");
         for (int count = 0; count < students; count++) {
-            System.out.print("\nstudent" + (count + 1) + ":\t\t");
+            int total = 0;
+		System.out.print("\nstudent" + (count + 1) + ":\t\t");
             	for (int i = 0; i < subjects; i++) {
-			System.out.print((scores[count][i]) + " \t\t\t");       
+			System.out.print((scores[count][i]) + " \t\t"); 
+			 total += scores[count][i];     
  }
+		  double averageScore = (double) total / subjects;
+            System.out.println("  Total: " + total + "\t\t  Average: " + averageScore);
+
 	}
 	
 	
