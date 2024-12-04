@@ -28,16 +28,20 @@ System.out.println("Score should be between 0 and 100. enter again.");
       }
           }
         }
+	for (int count = 0;count < subjects;count++){
+	     System.out.print("\t\t\tsub" + (count + 1));
+}
         for (int count = 0; count < students; count++) {
-            System.out.println(" ================================\nstudent" + (count + 1) + ":");
-            for (int i = 0; i < subjects; i++) {
-                System.out.print(scores[count][i] + " ");
-            }
-            System.out.println();
-        }
+            System.out.print("\nstudent" + (count + 1) + ":\t\t");
+            	for (int i = 0; i < subjects; i++) {
+			System.out.print((scores[count][i]) + " \t\t\t");       
+ }
+	}
+	
+	
+
+		
     }
 	}
 
     
-
-
